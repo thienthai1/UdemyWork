@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My First Website</title>
+        <meta name="description" contents="this is my website description">
+        <style>
+            #title{
+                background: blue;
+                text-align: center;
+                color: white;
+                padding: 3px;
+            }
+
+            #navigation {
+                background:yellowgreen;
+                float: left;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            #navigation ul{
+                list-style-type: none;
+            }
+
+            #login {
+                background: rgb(216, 78, 78);
+                float: left;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            #login div {
+                margin: 10px;
+            }
+
+            #article-1{
+                clear: both;
+            }
+
+            .articleFormat {
+                margin: 10px;
+                padding: 3px;
+                clear:both;
+            }
+
+            .articleFormat img{
+                width: 45%;
+                float: left;
+            }
+
+            .articleFormat p{
+                width: 50%;
+                float: right;
+                text-align: left;
+            }
+
+            #footer {
+                clear: both;
+                margin-top: 520px;
+                padding: 20px;
+                background-color: blanchedalmond;
+                height: 50px;
+            }
+
+            #footer a {
+                float: left;
+                padding: 5px;
+            }
+
+            #footer h3 {
+                float: right;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="title">
+            <h1>My Header</h1>
+        </div>
+        <div id="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#" title="no link">Home</a></li>
+                <li><a href="https://www.google.com" title="link to google" >Google</a></li>
+                <li><a href="#" title="no link">Article</a></li>
+                <li><a href="#" title="contact">Contact Us</a></li>
+                <li><a href="./landingPage.html" title="to next page">Next Page</a></li>
+            </ul>
+        </div>
+        <div id="login">
+            <h2>Login</h2>
+            <form action="login.php">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div id="article-1" class="articleFormat">
+            <h3>Article 1</h3>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las
+                        imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+                        de relleno <strong>estándar de las industrias</strong> desde el año 1500, cuando
+                        un impresor (N. del T. persona que se dedica a la imprenta)
+                        desconocido usó una <em>textos especimen. No sólo</em>galería
+                        de textos y los mezcló de tal 
+                        manera que logró hacer un libro de textos especimen. No sólo 
+                        sobrevivió 500 años, sino que tambien ingresó como texto de
+                </p>
+            <img src="Gorilla.jpg" alt="gorilla pic" height="500" width="500"/>
+        </div>
+        <div id="article-2" class="articleFormat">
+            <h3>Article 2</h3>
+            <p>
+                Lorem Ipsum es simplemente el texto de relleno de las
+                    imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+                    de relleno <strong>estándar de las industrias</strong> desde el año 1500, cuando
+                    un impresor (N. del T. persona que se dedica a la imprenta)
+                    desconocido usó una <em>textos especimen. No sólo</em>galería
+                    de textos y los mezcló de tal 
+                    manera que logró hacer un libro de textos especimen. No sólo 
+                    sobrevivió 500 años, sino que tambien ingresó como texto de
+            </p>
+            <img src="cheetah.jpg" alt="cheetah pic"  height="500" width="500"/>
+        </div>
+        <div id="article-3" class="articleFormat">
+            <h3>Article 3</h3>
+            <p>
+                Lorem Ipsum es simplemente el texto de relleno de las
+                    imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+                    de relleno <strong>estándar de las industrias</strong> desde el año 1500, cuando
+                    un impresor (N. del T. persona que se dedica a la imprenta)
+                    desconocido usó una <em>textos especimen. No sólo</em>galería
+                    de textos y los mezcló de tal 
+                    manera que logró hacer un libro de textos especimen. No sólo 
+                    sobrevivió 500 años, sino que tambien ingresó como texto de
+            </p>
+            <img src="chipmunk.jpg" alt="chipmunk pic" height="500" width="500"/>
+        </div>
+        <div id="article-4" class="articleFormat">
+            <h3>Article 4</h3>
+            <p>
+                Lorem Ipsum es simplemente el texto de relleno de las
+                    imprentas y archivos de texto. Lorem Ipsum ha sido el texto 
+                    de relleno <strong>estándar de las industrias</strong> desde el año 1500, cuando
+                    un impresor (N. del T. persona que se dedica a la imprenta)
+                    desconocido usó una <em>textos especimen. No sólo</em>galería
+                    de textos y los mezcló de tal 
+                    manera que logró hacer un libro de textos especimen. No sólo 
+                    sobrevivió 500 años, sino que tambien ingresó como texto de
+            </p>
+            <img src="deer.jpg" alt="deer pic" height="500" width="500"/>
+        </div>
+        <div id="footer">
+            <a href="#" title="no link">Home</a>
+            <a href="#" title="no link">Google</a>
+            <a href="#" title="no link">Contact Us</a>
+            <a href="#" title="no link">Next Page</a>
+            <h3>Copyright OMB	&copy;</h3>
+        </div>
+    </body>
+</html>
+
+<!-- 
+    header
+    content
+    navigation
+    sidebar
+    footer
+-->
